@@ -35,7 +35,6 @@ public class User {
     )
     private Set<Role> roles = new HashSet<>();
     
-    // Constructors
     public User() {}
     
     public User(String username, String password, String email) {
@@ -44,7 +43,6 @@ public class User {
         this.email = email;
     }
     
-    // Getters and Setters
     public Long getId() { return id; }
     public void setId(Long id) { this.id = id; }
     
