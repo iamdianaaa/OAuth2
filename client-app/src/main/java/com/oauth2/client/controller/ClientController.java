@@ -25,7 +25,6 @@ public class ClientController {
                 request.getPassword()
             );
             
-            // Store token for subsequent requests (in real app, use session or secure storage)
             currentToken = tokenResponse.getAccessToken();
             
             Map<String, Object> response = new HashMap<>();
