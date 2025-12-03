@@ -86,13 +86,6 @@ If you are using IntelliJ IDEA, then you can use pom.xml s for all three parts o
 ## API Endpoints
 
 
-The Postman collection for these endpoints are in this path:
-
-**client-app/OAuth Server.postman_collection.json**
-
-
-
-
 ### Authorization Server (Port 8080)
 
 #### 1. Register New User
